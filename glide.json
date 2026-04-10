@@ -1,11 +1,9 @@
 {
-  "name": "nameChecker",
-  "description": "Проверка имени на буквы и длину",
-  "author": "User",
+  "name": "Validator",
   "params": [
     {
-      "id": "value",
-      "name": "Имя для проверки",
+      "id": "p1",
+      "name": "Name",
       "type": "string"
     }
   ]
