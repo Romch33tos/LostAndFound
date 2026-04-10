@@ -5,7 +5,7 @@
   </head>
   <body>
     <script>
-      window.addEventListener("message", (event) => {
+      window.onmessage = function(event) {
         const { value } = event.data;
         const name = value ? String(value).trim() : "";
         const regex = /^[a-zA-Zа-яА-ЯёЁ\s-]+$/;
@@ -21,7 +21,7 @@
         }
 
         window.parent.postMessage({ value: result }, "*");
-      });
+      };
     </script>
   </body>
 </html>
