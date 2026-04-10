@@ -1,5 +1,5 @@
 {
-  "name": "Name Checker",
+  "name": "nameChecker",
   "description": "Проверка имени на буквы и длину",
   "author": "User",
   "params": [
