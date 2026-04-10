@@ -1,0 +1,12 @@
+{
+  "name": "Name Checker",
+  "description": "Проверка имени на буквы и длину",
+  "author": "Your Name",
+  "params": [
+    {
+      "id": "value",
+      "name": "Имя для проверки",
+      "type": "string"
+    }
+  ]
+}
