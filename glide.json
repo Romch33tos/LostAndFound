@@ -1,7 +1,7 @@
 {
   "name": "Name Checker",
   "description": "Проверка имени на буквы и длину",
-  "author": "Your Name",
+  "author": "User",
   "params": [
     {
       "id": "value",
